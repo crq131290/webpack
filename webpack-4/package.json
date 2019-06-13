@@ -1,0 +1,34 @@
+{
+  "name": "canvas1",
+  "version": "1.0.0",
+  "description": "canvas测试",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server  --inline  --progress --config config/webpack.dev.config.js",
+    "build": "webpack --config config/webpack.dev.config.js"
+  },
+  "author": "crq131290",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.0",
+    "vue-loader": "^14.0.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0"
+  }
+}
