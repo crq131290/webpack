@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "css-loader": "^2.1.1",
+    "file-loader": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "url-loader": "^2.0.0",
+    "webpack": "^3.6.0"
+  },
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "default": "webpack",
+    "dev": "webpack --config config/webpack.dev.config.js",
+    "prod": "webpack --config config/webpack.prod.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
