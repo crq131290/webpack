@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "webpack": "^3.6.0"
+  },
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "webpack ./main.js ./boundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
